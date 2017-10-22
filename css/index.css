@@ -139,4 +139,79 @@
 
 /*轮播图结束*/
 
+/*频道列表开始*/
+.channel-box{
+    margin-top: 14px;
+    width: 1226px;
+    height: 170px;
+    overflow:hidden;
+}
+.channel-list{
+    width: 234px;
+    height: 170px;
+    background: #5f5750;
+    float:left;
+    margin-bottom:26px;
+}
+.channel-list ul{
+    overflow:hidden;
+    padding: 3px 3px 0;
+}
+.channel-list li{
+    width: 76px;
+    height: 82px;
+    float:left;
+    position:relative;
+}
+.channel-list i{
+    display:block;
+    text-align:center;
+    font-size:24px;
+    color:rgba(255,255,255,0.7);
+    margin-top:18px;
+}
+.channel-list span{
+    text-align:center;
+    display:block;
+    color:rgba(255,255,255,0.7);
+    font-size:12px;
+
+}
+.line-right{
+    position:absolute;
+    top: 6px;
+    right: 0;
+    width: 1px;
+    height: 70px;
+    background: #665e57;
+}
+.line-bottom{
+    position:absolute;
+    bottom:0;
+    width: 64px;
+    height: 1px;
+    right:5px;
+    background: #665e57;
+}
+.promo-list{
+    float:left;
+}
+.promo-list img{
+    display:block;
+}
+.promo-list a{
+    float:left;
+    margin-left:15px;
+}
+.promo-list a.list-one{
+    margin-left:14px;
+}
+/*频道列表结束*/
+/*明星单品开始*/
+.star-box{
+    position; relative;
+}
+/*明星单品开始*/
+
+
 
