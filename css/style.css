@@ -92,11 +92,11 @@ img{
     right: 0;
     top: 40px;
     display: none;
-    z-index: 2;
+    z-index:2;
 }
-.icon-cart{
-    font-size:50px;
-}
+/*.icon-cart{*/
+    /*font-size:50px;*/
+/*}*/
 /*nav 结束*/
 
 /*header 开始*/
@@ -161,6 +161,9 @@ img{
     text-align: center;
     position: relative;
 }
+.sub-menu li::after{
+    content: "hhhh";
+}
 .flags{
     height: 17px;
     line-height: 17px;
@@ -198,44 +201,50 @@ img{
     background:#e0e0e0;
 }
 .search{
-    float:right;
-    margin-top: 20px;
     width: 296px;
-    height:50px;
-    background: transparent;
+    height: 50px;
+    float: right;
+    /*background: #000000;*/
+    margin-top: 20px;
+    position: relative;
 }
 .search-txt{
     width: 222px;
-    height:48px;
-    border:1px solid lightgray;
+    height: 48px;
+    border:1px solid #e0e0e0;
     outline: none;
-    padding: 0 10px;
-    float:left;
+    padding:0 10px;
+    float: left;
+
 }
 .search-btn{
     width: 52px;
-    height:50px;
-    background: transparent;
-    border:1px solid lightgray;
-    float: left;
-    position: relative;
-    outline:none;
-    z-index: 1;
-}
-.icon-search {
-    position: absolute;
-    right: 62px;
-    top: 20px;
-    width: 52px;
     height: 50px;
-    display: block;
-    line-height: 50px;
-    text-align: center;
+    float: left;
+    border: 1px solid #e0e0e0;
+    border-left: 0;
+    cursor: pointer;
+    position: relative;
+    background: transparent;
+    outline: none;
+    z-index:1;
 }
 .search-btn:hover+i{
     color:#fff;
     background: #ff6700;
 }
+.icon-search{
+    position: absolute;
+    right:0;
+    top: 0;
+    width: 52px;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    text-align: center;
 
-
+    /*color:#e0e0e0;*/
+}
 /*header 结束*/
+
+
