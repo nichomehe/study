@@ -95,6 +95,7 @@ img{
     display: none;
     z-index:2;
 }
+
 /*.icon-cart{*/
     /*font-size:50px;*/
 /*}*/
@@ -209,15 +210,21 @@ img{
     margin-top: 20px;
     position: relative;
 }
-.search-txt{
+.search-txt {
     width: 222px;
     height: 48px;
-    border:1px solid #e0e0e0;
+    border: 1px solid #e0e0e0;
     outline: none;
-    padding:0 10px;
+    padding: 0 10px;
     float: left;
-
 }
+.search-txt:focus {
+    border: 1px solid #ff9700;
+}
+.search-txt:focus~.search-txt{
+    border: 1px solid #ff9700;
+}
+
 .search-btn{
     width: 52px;
     height: 50px;
@@ -266,13 +273,16 @@ img{
     width: 40px;
     padding:0 5px;
 }
-.hot-2{
+.hot-2 {
     width: 116px;
-    padding:0 5px;
+    padding: 0 5px;
 }
 .hot:hover{
-    background-color: #ff6700;
-    color:white;
+    background-color: #ff9700;
+    color: white;
+}
+.search-txt:focus~.hot-box{
+    display: none;
 }
 
 /*header 结束*/
