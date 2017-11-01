@@ -82,6 +82,7 @@ img{
     color: #ff6700;
 }
 .cart-box{
+    color:#757575;
     width: 316px;
     height: 0px;
     padding-top: 15px;
@@ -242,9 +243,38 @@ img{
     display: block;
     line-height: 50px;
     text-align: center;
-
     /*color:#e0e0e0;*/
 }
+.hot-box{
+    width: 200px;
+    height: 21px;
+    position: absolute;
+    top:15px;
+    left: 50px;
+}
+.hot{
+    text-align: center;
+    display: inline-block;
+    height: 21px;
+    line-height:21px;
+    background-color: #eee;
+    color:#757575;
+    font-size:12px;
+    margin-left: 5px;
+}
+.hot-1{
+    width: 40px;
+    padding:0 5px;
+}
+.hot-2{
+    width: 116px;
+    padding:0 5px;
+}
+.hot:hover{
+    background-color: #ff6700;
+    color:white;
+}
+
 /*header 结束*/
 
 
