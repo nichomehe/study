@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h>何云莲</h>
+<script>
+   var months= new Array(31,28,31,30,31,30,31,31,30,31,30,31);
+   function DayOfYear(year,month,day) {
+       var result = 0;
+       if (IsLeapYear(year)) {
+           months[1] = 29;
+       }
+       for (var i = 0; i < month - 1; i++) {
+           result += months[i];
+       }
+       result += day;
+       return result;
+   }
+   /**
+    * @return {boolean}
+    */
+   function IsLeapYear(year) {
+       return ((year % 4 == 0 && year % 100 == 0)|| year % 400 == 0);
+   }
+   console.log(DayOfYear(2000,3,8));
+
+</script>
+
+</body>
+</html>

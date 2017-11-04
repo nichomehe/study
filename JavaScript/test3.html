@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var num=1,iscontinue=true;
+    var  sum=0,average;
+    var arr=[];
+    var str="";
+    while(num<8 && iscontinue!= null){
+        iscontinue= prompt("请输入第"+num+"门成绩");
+        arr.push(iscontinue);
+        num++;
+    }
+    for( var i=0;i<arr.length;i++){
+        sum+=parseInt(arr[i]);
+        if(arr[i]<60){
+            str+= (arr[i]+"  ");
+        }
+    }
+    average=sum/7;
+    document.write("总成绩："+sum+"<br/>"+"" + "平均分：" +average+"<br/>"+"小于60分的成绩："+str);
+</script>
+</body>
+</html>

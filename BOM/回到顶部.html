@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 2000px;
+        }
+        #go-top{
+            width: 35px;
+            height: 74px;
+            background: url("go-top.jpeg") -22px 0 no-repeat;
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+        }
+        #go-top:hover{
+            background: url("go-top.jpeg") -113px 1px no-repeat;
+        }
+    </style>
+</head>
+<body>
+jfhisdghfihhjj
+    <a href="javascript:;" id="go-top"></a>
+
+    <script>
+        var oBtn = document.getElementById('go-top');
+        oBtn.onclick = function(){
+            var iScrolltop=document.documentElement.scrollTop || document.body.scrollTop;
+            var timer = setInterval(function () {
+                window.scrollTo(0,iScrolltop*=0.6);
+                console.log(iScrolltop);
+                if(iScrolltop <= 1){
+                    clearInterval(timer);
+                }
+            },50);
+        }
+
+
+
+    </script>
+
+
+</body>
+</html>
