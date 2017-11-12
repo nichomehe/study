@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul{
+            list-style: none;
+        }
+
+        #container{
+            width: 400px;
+            height: 300px;
+            margin: 50px auto;
+        }
+        #btn{
+            overflow: hidden;
+        }
+        #btn li{
+            float: left;
+            width: 120px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            background: #ccc;
+            color: #fff;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        #btn .selected{
+            background: #000;
+        }
+        #content div{
+            width: 400px;
+            height: 270px;
+            background: #cccccc;
+            border-top:1px solid #000;
+            display: none;
+        }
+        #content .active{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <ul id="btn">
+        <li class="selected">1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <div id="content">
+        <div class="active">aaa</div>
+        <div>bbb</div>
+        <div>ccc</div>
+    </div>
+</div>
+<script>
+    var ali = document.getElementsByTagName('li');
+    var acontent= document.getElementById('content');
+    var adiv= acontent.getElementsByTagName('div');
+
+    for(var i=0;i<ali.length; i++){
+        ali[i].index=i;
+        adiv[i].index=i;
+        ali[i].onclick = function(){
+            for(var j=0; j<ali.length; j++){
+                ali[j].className='';
+                adiv[j].className='';
+            }
+            this.className='selected';
+            adiv[this.index].className='active';
+        }
+
+    }
+</script>
+</body>
+</html>
