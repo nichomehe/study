@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+    <div id="div1" >
+        111
+    </div>
+    <ul id="ul1">
+        <li>014</li>
+        <li>024</li>
+        <li>034</li>
+        <li>044</li>
+    </ul>
+    <ul id="ul2" >
+        <li>014</li>
+        <li class="aa">024</li>
+        <li>034</li>
+        <li class="aa">044</li>
+    </ul>
+    <input type="checkbox" />11
+    <input type="checkbox"/>22
+    <input type="checkbox"/>33
+    <input type="radio" name="sex"/>男
+    <input type="radio" name="sex"/>女
+    <script>
+
+        /*var oDiv = document.getElementById('div1');//返回一个dom对象 如果没有返回null
+
+
+        oDiv.onclick = function(){
+            oDiv.style.background = 'red';
+            oDiv.style.color = 'white';
+        }
+
+        var oUl2 = document.getElementById('ul2');
+        var aLi = oUl2.getElementsByTagName('li');  //返回节点列表 类数组 如果没有返回空数组
+
+//        oUl2.style.background = 'orange';
+        for(var i=0; i<aLi.length; i++){
+//            aLi[i].style.background = 'black';
+        }
+
+        var aLi2 = document.getElementsByClassName('aa'); //dom3
+
+        for(var i=0; i<aLi2.length; i++){
+            aLi2[i].style.background = 'green';
+        }*/
+
+
+//        aLi[0].style.background = 'red';
+//        className
+
+       var aCheckbox =  document.getElementsByName('sex');//通过name获取元素 返回数组
+        for(var i=0; i<aCheckbox.length; i++){
+            aCheckbox[i].className = 'bb';
+        }
+        console.log(aCheckbox[1].aa);
+
+        
+
+
+
+    </script>
+
+</body>
+</html>
