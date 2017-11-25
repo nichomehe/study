@@ -1973,25 +1973,62 @@
 
 
 <script>
-     var oslideImg=document.getElementsByClassName('img-box');
-     var aslideImg=oslideImg.getElementsByTagName('img');
+    //轮播图开始
+     var oslideImg = document.getElementsByClassName('img-box');
+     var aslideImg=oslideImg.getElementsByClassName('img');
      var obtns=document.getElementsByClassName('btns');
      var abtns=obtns.getElementsByTagName('li');
+     var oNextBtn= document.getElementsByClassName('next-btn');
+     var oPrevBtn= document.getElementsByClassName('prev-btn');
      var iNow;
-
-
 
      for(var i=0; i<abtns.length;i++){
          abtns[i].index=i;
-         abtns[i].onclick= function(){
-             for(var j=0;j<abtns.length; j++){
-                 abtns[j].className='';
-                 aslideImg[j].className='';
-             }
-             abtns[this.index].className='active';
-             aslideImg[this.index].className='active';
+         abtns[i].onclick= function() {
+             iNow = this.index;
+             changeImg(this.index);
          }
      }
+     oNextBtn.onclick=function () {
+         iNow++;
+         if (iNow >= abtns.length) {
+             iNow = 0;
+         }
+         changeImg(iNow);
+     }
+     oPrevBtn.onclick=function () {
+         iNow--;
+         if (iNow = -1) {
+             iNow = abtns.length-1;
+         }
+         changeImg(iNow);
+     }
+
+    function changeImg(idx) {
+        for(var j=0;j<abtns.length; j++){
+            abtns[j].className='';
+            aslideImg[j].className='';
+        }
+        abtns[idx].className='active';
+        aslideImg[idx].className='active';
+    }
+
+     run();
+
+     oslideImg.mouseover=function(){
+         clearInterval('timer');
+     }
+     oslideImg.mouseout= function(){
+         run();
+     }
+
+     function run(){
+         timer= setInterval(function(){
+             oNextBtn.onclick();
+         },1000);
+     }
+
+//轮播图结束
 
 
 
