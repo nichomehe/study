@@ -15,6 +15,10 @@ body{
     position: absolute;
     left:0;
     top:0;
+    display: none;
+}
+.img-box .active{
+    display: block;
 }
 .prev-btn,.next-btn{
     width: 40px;
@@ -57,6 +61,10 @@ body{
     position: absolute;
     right: 0px;
     bottom:20px;
+}
+.btns .active{
+    background: #898a8e;
+    border:2px solid #4f4e56;
 }
 .list{
     position: absolute;
@@ -365,6 +373,10 @@ body{
 .box-left{
     float: left;
 }
+.box-left img{
+    height: 614px;
+    width: 234px;
+}
 .box-right{
     float: right;
     width: 992px;
@@ -586,8 +598,11 @@ body{
     top:0;
     background: #e0e0e0;
 }
-.list-service li a{
-    color:#616161
+.list-service li a {
+    color: #616161
+}
+.list-service a:hover{
+    color: #ff0000;
 }
 
 /*footer结束*/

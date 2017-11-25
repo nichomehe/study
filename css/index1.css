@@ -15,6 +15,10 @@ body{
     position: absolute;
     left:0;
     top:0;
+    display: none;
+}
+.img-box .active{
+    display: block;
 }
 .prev-btn,.next-btn{
     width: 40px;
@@ -57,6 +61,10 @@ body{
     position: absolute;
     right: 0px;
     bottom:20px;
+}
+.btns .active{
+    background: #898a8e;
+    border:2px solid #4f4e56;
 }
 .list{
     background: rgba(0,0,0,0.6);
