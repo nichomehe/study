@@ -361,6 +361,7 @@ body{
     float: left;
     margin-left: 30px;
     font-weight: 200;
+    cursor: pointer;
 }
 .tab-btns .active{
     color: #ff6700;
@@ -377,9 +378,13 @@ body{
     height: 614px;
     width: 234px;
 }
-.box-right{
+.box-right {
     float: right;
     width: 992px;
+    display: none;
+}
+.box-bd .selected{
+    display: block;
 }
 .bd-item{
     width: 234px;
