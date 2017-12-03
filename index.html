@@ -1960,6 +1960,7 @@
 
 <script>
     //轮播图开始
+     var oslide= document.getElementsByClassName('slide')[0];
      var oslideImg = document.getElementsByClassName('img-box')[0];
      var aslideImg=oslideImg.getElementsByTagName('img');
      var obtns=document.getElementsByClassName('btns')[0];
@@ -1981,14 +1982,14 @@
              iNow = 0;
          }
          changeImg(iNow);
-     }
+     };
      oPrevBtn.onclick=function () {
          iNow--;
          if (iNow = -1) {
              iNow = abtns.length-1;
          }
          changeImg(iNow);
-     }
+     };
 
     function changeImg(idx) {
         for(var j=0;j<abtns.length; j++){
@@ -2000,15 +2001,13 @@
         aslideImg[idx].className='active';
     }
 
-     run();
-
-     oslideImg.mouseover=function(){
+     oslide.onmouseover =function(){
          clearInterval('timer');
-     }
-     oslideImg.mouseout= function(){
+     };
+     oslide.onmouseout = function(){
          run();
-     }
-
+     };
+     run();
      function run(){
          timer= setInterval(function(){
              oNextBtn.onclick();
