@@ -15,7 +15,7 @@
     </style>
 </head>
 <body>
-  <fieldset>
+<fieldset>
     <legend>个人基本信息</legend>
     <div>
         <label for="username">名称：</label>
@@ -29,20 +29,27 @@
     <textarea>fghjkjhgvhj
     </textarea>
 
-   </fieldset>
-<script src="jquery-1.12.4.js"></script>
-  <script>
-      $(':input').on('focus',function(){
-          $(this).addClass('selected');
-          if(this.value == this.defaultValue){
-              this.value = '';
-          }
-      }).on('blur',function () {
-          $(this).removeClass('selected');
-          if(this.value == ''){
-              this.value = this.defaultValue;
-          }
-      });
-  </script>
+</fieldset>
+<script src="../jquery-1.12.4.js"></script>
+<script>
+    $(':input').on('focus',function(){
+        $(this).addClass('selected');
+        if(this.value == this.defaultValue){
+            this.value = '';
+        }
+    }).on('blur',function(){
+        $(this).removeClass('selected');
+        if(this.value == ''){
+            this.value = this.defaultValue;
+        }
+    });
+
+
+
+
+</script>
+
+
+
 </body>
 </html>

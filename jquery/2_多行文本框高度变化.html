@@ -21,23 +21,46 @@
         <textarea id="comment" rows="8" cols="20">多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.多行文本框高度变化.</textarea>
     </div>
 </div>
-<script src="jquery-1.12.4.js"></script>
+<script src="../jquery-1.12.4.js"></script>
+
 <script>
-    var $comment= $('#comment');
-    $('.bigger').on('click',function () {
-        if($comment.height()<500 && !$comment.is(':animated')){
+    var $comment = $('#comment');
+    $('.bigger').on('click',function(){
+        if($comment.height() < 500 && !$comment.is(':animated')){
             $('#comment').animate({
                 height:'+=50'
-            },1000);
+            });
         }
     });
-    $('.smaller').on('click',function () {
-        if($comment.height()>50 && !$comment.is(':animated')){
-            $('#comment').animate({
-                height:'-=50'
-            },1000);
-        }
-    });
+
+    //scrollTop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </script>
+
 </body>
 </html>

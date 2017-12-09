@@ -19,9 +19,12 @@
             font-size:12px;
             color:white;
         }
-        </style>
+    </style>
+
+
 </head>
 <body>
+
 <div class="centent">
     <select multiple="multiple" id="select1" style="width:100px;height:160px;">
         <option value="1">选项1</option>
@@ -47,30 +50,28 @@
     </div>
 </div>
 
-<script src="jquery-1.12.4.js"></script>
+<script src="../jquery-1.12.4.js"></script>
 <script>
-    $('#select1 option').on('click',function () {
-        $(this).prop('selected',true);
-    });
-    $('#add').on('click',function () {
-        $('#select1 :selected').appendTo('#select2');
-    });
-    $('#add_all').on('click',function () {
-        $('#select1 option').each(function () {
+    $(function(){
+        $('#add').on('click',function(){
+            $('#select1 :selected').appendTo('#select2');
+            //$('#select1 option').appendTo('#select2');
+        });
+
+        $('#select1 option').on('dblclick',function(){
             $(this).appendTo('#select2');
         });
+
+        $('#select1').on('dblclick',function(){
+            $('#select1 :selected').appendTo('#select2');
+        })
+
     });
-    $('#select2 option').on('click',function () {
-        $(this).prop('selected',true);
-    });
-    $('#remove').on('click',function () {
-        $('#select2 :selected').appendTo('#select1');
-    });
-    $('#remove_all').on('click',function () {
-        $('#select2 option').each(function () {
-            $(this).appendTo('#select1');
-        });
-    });
+
+
+
 </script>
+
+
 </body>
 </html>

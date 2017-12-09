@@ -16,28 +16,49 @@
     <input type="button" id="CheckedAll" value="全　选"/>
     <input type="button" id="CheckedNo" value="全不选"/>
     <input type="button" id="CheckedRev" value="反　选"/>
+
     <input type="button" id="send" value="提　交"/>
 </form>
-<script src="jquery-1.12.4.js"></script>
+
+<script src="../jquery-1.12.4.js"></script>
 <script>
     $('#CheckedAll').on('click',function(){
+        //prop特性
+        //attr 属性
         $(':checkbox').prop('checked',true);
     });
     $('#CheckedNo').on('click',function(){
         $(':checkbox').prop('checked',false);
     });
     $('#CheckedRev').on('click',function(){
-        $(':checkbox').each(function () {
+        $(':checkbox').each(function(){
             this.checked = !this.checked;
         });
     });
     $('#send').on('click',function(){
-        var str='你选中的是：\n';
-        $(':checked').each(function () {
-           str+=this.value+'\n';
+        var str = '你选中的是\n';
+        $(':checked').each(function(){
+            str += this.value +"\n";
         });
         alert(str);
     });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </script>
+
 </body>
 </html>
