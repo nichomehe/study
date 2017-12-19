@@ -1,0 +1,64 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/*教师选项卡开始*/
+
+
+
+#big{
+    background-color: #5cb85c;
+    width: 1327px;
+    height: 1000px;
+}
+.left1{
+    display: inline;
+    float: left;
+    height: 1000px;
+    width: 200px;
+    background-color: #fff;
+    position: relative;
+    border-right: 3px solid lightgrey;
+}
+.left1 ul{
+    height: 1000px;
+    width: 200px;
+    margin: 0 0;
+    padding: 0 0;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.left1 li{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.selected{
+    background-color: white;
+}
+.odd1{
+    background-color: #8be784;
+}
+.even1{
+    background-color: #24a564;
+}
+.right1{
+    display: inline;
+    float: left;
+    height: 1000px;
+    width: 1124px;
+    background-color: #fff;
+}
+.right1 div{
+    display: none;
+}
+.right1 .active{
+    display: block;
+}
+/*教师选项卡结束*/

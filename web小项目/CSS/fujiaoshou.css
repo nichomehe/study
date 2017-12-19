@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+div{
+    height: 100px;
+    width: 500px;
+    background-color: #B4B4B4;
+     margin: 0 auto;
+}
