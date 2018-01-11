@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #container{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 1px solid black;
+            margin: 50px auto;
+            position: relative;
+        }
+        ul{
+            list-style: none;
+        }
+        #container li{
+            width: 2px;
+            height: 4px;
+            background-color: black;
+            position:absolute;
+            left:100px;
+            top:0;
+            margin-left: -1px;
+            -webkit-transform-origin:1px 100px;
+        }
+        #container li:nth-child(5n+1){
+            height: 8px;
+        }
+    </style>
+</head>
+<body>
+  <div id="container">
+      <ul>
+      </ul>
+      <div id="hour"></div>
+      <div id="minute"></div>
+      <div id="second"></div>
+  </div>
+  <script>
+      var oUL=document.getElementsByTagName('ul')[0];
+      var str='';
+      for(var i=0;i<60;i++){
+          str+='<li style="-webkit-transform: rotate('+i*6+'deg)"></li>';
+      }
+      oUL.innerHTML=str;
+  </script>
+
+</body>
+</html>
