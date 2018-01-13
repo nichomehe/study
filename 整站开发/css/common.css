@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    margin:0 auto;
+    width: 1002px;
+}
+/*header开始*/
+#header{
+    height: 120px;
+    background-color: #fff;
+}
+.logo{
+    float:left;
+    width: 250px;
+    height: 58px;
+}
+.nav{
+    float: left;
+}
+.nav li{
+    float:left;
+    width: 91px;
+    height: 58px;
+}
+.nav a{
+    color: #626262;
+    font-size: 15px;
+
+}
+
+
+
+
+/*header结束*/
