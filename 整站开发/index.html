@@ -12,28 +12,53 @@
           <a href="#"><img src="image/logo.png" alt=""></a>
       </div>
       <ul class="nav">
-          <li href="#">ABOUT</li>
-          <li href="#">SERVICES</li>
-          <li href="#">WORKS</li>
-          <li href="#">BLOG</li>
-          <li href="#">CONTACT US</li>
+          <li><a href="#">ABOUT</a></li>
+          <li class="active"><a href="#">SERVICES</a></li>
+          <li><a href="#">WORKS</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACTUS</a></li>
       </ul>
+         <div class="search">
+             <input type="text" class="searh-txt" value="Search">
+             <input type="submit" class="search-btn">
+         </div>
      </div>
   </div>
   <div id="scroll">
       <div class="wrapper">
-
+          <div class="wrapper img-box">
+              <img class="selected" src="image/pics1.png" alt="">
+              <img src="image/pics2.png" alt="">
+              <img src="image/pics3.png" alt="">
+              <div class="prev"><img src="image/css.png" alt=""></div>
+              <div class="next"><img src="image/css.png" alt=""></div>
+          </div>
       </div>
   </div>
   <div id="choose">
       <div class="wrapper">
-
+          <div class="wd">
+              <span class="title">Web Design</span>
+              <a href="#"><img src="image/css.png" alt=""></a>
+              <span class="content"></span>
+              <span class="more"></span>
+          </div>
+          <div class="sm">
+              <span class="title">Social Media</span>
+              <a href="#"><img src="image/css.png" alt=""></a>
+              <span class="content"></span>
+              <span class="more"></span>
+          </div>
+          <div class="ma">
+              <span class="title">Mobile Apps</span>
+              <a href="#"><img src="image/css.png" alt=""></a>
+              <span class="content"></span>
+              <span class="more"></span>
+          </div>
       </div>
   </div>
   <div id="jobs">
-      <div class="wrapper">
-
-      </div>
+      
   </div>
   <div id="clients">
       <div class="wrapper">
@@ -45,5 +70,48 @@
 
       </div>
   </div>
+
+
+  <script>
+      var oImgBox = document.getElementsByClassName('img-box')[0];
+      var aImg = oImgBox.getElementsByTagName('img');
+      var oNextBtn = document.getElementsByClassName('next')[0];
+      var oPrevBtn = document.getElementsByClassName('prev')[0];
+      var iNow = 0;
+      var timer;
+      oNextBtn.onclick = function(){
+          iNow++;
+          if(iNow >= aImg.length){
+              iNow = 0;
+          }
+          changeImg(iNow);
+      }
+      oPrevBtn.onclick = function(){
+          iNow--;
+          if(iNow == -1){
+              iNow = aImg.length-1;
+          }
+          changeImg(iNow);
+      }
+      function changeImg(idx){ //在函数中this指向window
+          for(var j=0;j<aImg.length; j++){
+              aImg[j].className = '';
+          }
+//                this.className = 'selected';
+          aImg[idx].className = 'selected';
+      }
+      run();
+      oImgBox.onmouseover = function(){
+          clearInterval(timer);
+      };
+      oImgBox.onmouseout = function(){
+          run();
+      };
+      function run(){
+          timer = setInterval(function(){
+              oNextBtn.onclick();
+          },1000);
+      }
+  </script>
 </body>
 </html>

@@ -17,26 +17,144 @@ a{
     height: 120px;
     background-color: #fff;
 }
+#header .wrapper{
+    height: 120px;
+}
 .logo{
     float:left;
     width: 250px;
     height: 58px;
+    line-height: 58px;
+    margin-top: 31px;
+}
+.logo a{
+    display: block;
+    height: 58px;
 }
 .nav{
+    height: 120px;
     float: left;
+    margin-left: 84px;
 }
 .nav li{
     float:left;
-    width: 91px;
     height: 58px;
+    line-height: 58px;
+    margin-top: 31px;
+    padding: 0 24px 0 25px;
+    position: relative;
 }
+
 .nav a{
     color: #626262;
     font-size: 15px;
 
+}
+.nav .active a{
+    color: #00aeff;
+}
+.nav li::after {
+    content: '';
+    color:#6b6b6b ;
+    height: 12px;
+    width: 1px;
+    position: absolute;
+    top:50% ;
+    right: 0;
+    margin-top: -6px;
+    display: block;
+}
+
+.search{
+    width: 131px;
+    height: 30px;
+    background-color: #f1f3f6;
+    float: left;
+    overflow: hidden;
+}
+.search .search-txt{
+    float: left;
+    display: block;
+    background-color: #f1f3f6;
+    color: #a3a3a3;
+    width: 90px;
+    height: 14px;
+    padding: 8px 0 8px 11px;
+    outline: none;
+}
+.search .search-btn{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-color: #a3a3a3;
 }
 
 
 
 
 /*header结束*/
+
+/*lunbotuk*/
+#scroll{
+    height: 460px;
+    background-color: #31333e;
+}
+.img-box{
+    height: 460px;
+    width: 1002px;
+    overflow: hidden;
+    position: relative;
+}
+.img-box img{
+    display: none;
+}
+.img-box .selected{
+    display: block;
+}
+.img-box .prev{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -50px;
+    overflow: hidden;
+}
+.img-box .prev img{
+    display: block;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.img-box .next{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -50px;
+    overflow: hidden;
+}
+.img-box .next img{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
+
+/*lunbotuk*/
+
+/*choose*/
+
+#choose{
+    background-color: #ffffff;
+}
+#choose .wrapper{
+    height: 492px;
+}
+#choose .wrapper div{
+    height: 492px;
+    width: 334px;
+    float: left;
+}
+/*choose*/
