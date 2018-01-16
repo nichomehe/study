@@ -210,3 +210,28 @@ a{
     font-size: 15px;
 }
 /*choose结束*/
+
+/*works开始*/
+#works{
+    background-color: #e2e7ed;
+    height: 500px;
+}
+#works .wrapper{
+    height: 500px;
+}
+#works .wrapper h{
+    color: #626262;
+    font-size: 30px;
+    height: 70px;
+    line-height: 70px;
+}
+#works .wrapper ul{
+    height: 404px;
+    width: 1002px;
+}
+#works .wrapper ul li{
+    width: 250.5px;
+    height: 202px;
+    float: left;
+}
+/*works结束*/
