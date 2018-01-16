@@ -94,7 +94,7 @@ a{
 
 /*header结束*/
 
-/*lunbotuk*/
+/*轮播图开始*/
 #scroll{
     height: 460px;
     background-color: #31333e;
@@ -142,9 +142,9 @@ a{
     left: -50px;
 }
 
-/*lunbotuk*/
+/*轮播图结束*/
 
-/*choose*/
+/*choose开始*/
 
 #choose{
     background-color: #ffffff;
@@ -157,4 +157,18 @@ a{
     width: 334px;
     float: left;
 }
-/*choose*/
+#choose .wrapper div .title{
+
+}
+#choose .wrapper div a{
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+#choose .wrapper .wd img{
+    position: absolute;
+    top: -205px;
+    left:117px;
+}
+/*choose结束*/
