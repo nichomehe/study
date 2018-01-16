@@ -156,19 +156,57 @@ a{
     height: 492px;
     width: 334px;
     float: left;
+    position: relative;
 }
 #choose .wrapper div .title{
-
+    height: 40px;
+    width: 334px;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top:80px;
+    left: 0;
+    color: #626262;
 }
-#choose .wrapper div a{
+#choose .wrapper div .img{
     display: block;
     width: 100px;
     height: 100px;
-    position: relative;
+    position: absolute;
+    top: 138px;
+    left: 117px;
+    overflow: hidden;
 }
 #choose .wrapper .wd img{
     position: absolute;
     top: -205px;
-    left:117px;
+    left:-117px;
+}
+#choose .wrapper .sm img{
+    position: absolute;
+    top: -205px;
+    left:-451px;
+}
+#choose .wrapper .ma img{
+    position: absolute;
+    top: -205px;
+    left:-785px;
+}
+#choose .wrapper div .content{
+    height: 95px;
+    width: 334px;
+    position: absolute;
+    top: 265px;
+    font-size: 15px;
+    color: #2a2e39;
+}
+#choose .wrapper div .more{
+    display: block;
+    position: absolute;
+    top:392px;
+    left: 130px;
+    color: #00aeff;
+    font-size: 15px;
 }
 /*choose结束*/
