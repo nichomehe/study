@@ -235,3 +235,35 @@ a{
     float: left;
 }
 /*works结束*/
+
+/*clients开始*/
+#clients{
+    height: 155px;
+    background-color: #ffffff;
+}
+#clients .wrapper{
+    height: 155px;
+}
+#clients .wrapper h{
+    font-size: 30px;
+    color: #626262;
+    height: 67px;
+    line-height: 67px;
+}
+#clients .wrapper .logos{
+    height: 61px;
+    position: relative;
+}
+#clients .wrapper .logos .prev1{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    left:0;
+}
+#clients .wrapper .logos .next1{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    right:0;
+}
+/*clients结束*/
