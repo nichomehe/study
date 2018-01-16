@@ -36,6 +36,9 @@ a{
     float: left;
     margin-left: 84px;
 }
+.nav ul{
+    height: 58px;
+}
 .nav li{
     float:left;
     height: 58px;
@@ -53,9 +56,9 @@ a{
 .nav .active a{
     color: #00aeff;
 }
-.nav li::after {
+.nav li::after{
     content: '';
-    color:#6b6b6b ;
+    background-color:#6b6b6b ;
     height: 12px;
     width: 1px;
     position: absolute;
@@ -268,3 +271,65 @@ a{
 }
 
 /*clients结束*/
+
+/*footer开始*/
+#footer{
+    height: 600px;
+    background-color: #31333e;
+}
+#footer .wrapper{
+    height: 176px;
+    position: relative;
+}
+#footer .wrapper ul{
+    height: 22px;
+    position: absolute;
+    left: 0;
+    top:39px;
+}
+#footer .wrapper ul li{
+    padding: 0 15px 0 15px;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    color: #e2e7ed;
+    position: relative;
+}
+#footer .wrapper ul li::before{
+    content: '';
+    background-color: #e2e7ed;
+    width: 1px;
+    height: 16px;
+    position: absolute;
+    top:50%;
+    left: 0;
+    margin-top: -8px;
+
+}
+#footer .wrapper ul #home{
+    padding-left: 0;
+}
+#footer .wrapper .sp-1{
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #e2e7ed;
+    position: absolute;
+    top:61px;
+    left: 0;
+}
+#footer .wrapper .sp-2{
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #e2e7ed;
+    position: absolute;
+    top:117px;
+    left: 0;
+}
+#footer .wrapper div{
+    position: absolute;
+    top:39px;
+    right:0px;
+}
+/*footer结束*/
