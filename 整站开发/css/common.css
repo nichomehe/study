@@ -196,12 +196,17 @@ a{
     left:-785px;
 }
 #choose .wrapper div .content{
-    height: 95px;
+    display: block;
+    height: 97px;
     width: 334px;
     position: absolute;
     top: 265px;
+    left: 0;
     font-size: 15px;
+    text-align: center;
     color: #2a2e39;
+    padding: 0;
+    /*word-wrap: break-word;*/
 }
 #choose .wrapper div .more{
     display: block;
