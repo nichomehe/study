@@ -22,8 +22,8 @@
         #img-box{
             background:url("image/01.jpg") 0 0 no-repeat;
             background-size: cover;
-            height: 0px;
-            padding-top: 56%;
+            height: 0px;        /* 不能写死高度，否则在缩放窗口时北京图片的高度将不会改变而只是在改变宽度*/
+            padding-top: 56%;        /*padding 如果设置百分比，则根据父元素的宽度宽度宽度！！！来计算的*/
         }
         #content{
             /*height: 300px;*/
