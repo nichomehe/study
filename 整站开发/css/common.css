@@ -203,10 +203,9 @@ a{
     top: 265px;
     left: 0;
     font-size: 15px;
-    text-align: center;
     color: #2a2e39;
     padding: 0;
-    /*word-wrap: break-word;*/
+       /*多行文字在容器中垂直居中：：父元素----display：table;  子元素（容器）----display:table-cell; vertical-align: middle;*/
 }
 #choose .wrapper div .more{
     display: block;
