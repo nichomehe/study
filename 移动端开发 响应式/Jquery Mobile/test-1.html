@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,height=device-height, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+        .content{
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        #container{
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #container img{
+            width: 25%;
+            display: block;
+            float: left;
+        }
+        #show{
+            display: none;
+            width: 100%;
+            /*height: 50%;*/
+            background-size: cover;
+            padding-top:50% ;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="content">
+  <div id="container">
+
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/1.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/2.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/3.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/4.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/5.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/6.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/7.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/8.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/9.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/10.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/11.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/12.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/13.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/14.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/15.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/16.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/17.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/18.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/19.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/20.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/21.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/22.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/23.jpg" alt="">
+          <img src="../../css3/20_旋转合并的照片墙/img/thumbs/24.jpg" alt="">
+
+
+  </div>
+  <div id="show">
+
+  </div>
+</div>
+
+
+      <script src="jquery-1.12.4.js"></script>
+      <script src="jquery.mobile-1.4.5.min.js"></script>
+      <script>
+          $('img').on('tap',function () {
+          var $src= $(this).attr('src');
+          console.log($src);
+          $(this).parent().hide();
+          $('#show').css('background','url("$src") 0 0 no-repeat');
+          $('#show').show();
+
+      });
+
+
+  </script>
+
+
+</body>
+</html>
