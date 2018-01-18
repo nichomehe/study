@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width,height=device-height, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
     <title></title>
     <style>
@@ -12,11 +12,7 @@
             padding: 0;
 
         }
-        .content{
-            width: 100%;
-            height: 100%;
-            position: relative;
-        }
+
         #container{
             width: 100%;
             margin: 0 auto;
@@ -28,13 +24,24 @@
             width: 25%;
             display: block;
             float: left;
+            border-right:2px solid #000;
+            border-bottom:2px solid #000;
+            -webkit-box-sizing: border-box;
         }
         #show{
             display: none;
-            width: 100%;
-            /*height: 50%;*/
-            background-size: cover;
-            padding-top:50% ;
+            /*width: 100%;*/
+            /*height: 0;*/
+            /*!*height: 40%;*!*/
+            /*padding-top:50%;*/
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            /*top: 50%;*/
+            /*-webkit-transform: translateY(80%);*/
+
         }
 
 
@@ -82,12 +89,13 @@
       <script>
           $('img').on('tap',function () {
           var $src= $(this).attr('src');
-          console.log($src);
+//          console.log($src);
           $(this).parent().hide();
-          $('#show').css('background','url("$src") 0 0 no-repeat');
           $('#show').show();
-
+          $('#show').css('background','#000 url('+$src+') center center no-repeat');
+          $('#show').css('background-size','contain');
       });
+
 
 
   </script>
