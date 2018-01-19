@@ -26,6 +26,17 @@
                 font-weight: 700;
             }
         }
+        @media screen and (max-width: 991px) {
+             .big{
+                 display: none;
+             }
+            .small{
+                display: block;
+            }
+        }
+        @media screen and (max-width: 767px){
+
+        }
     </style>
 </head>
 <body>
@@ -43,8 +54,29 @@
               <a href="#">注册</a>
           </div>
       </div>
-      <div id="ad"></div>
-      <div id="card"></div>
+      <div id="ad">
+          <a href="#">
+              <img class="big" src="image/pics1.jpg" alt="">
+              <img class='small' src="image/pics1-1.jpg" alt="">
+          </a>
+          <span>广告</span>
+          <a class='more' href="#">了解更多</a>
+      </div>
+      <div id="card">
+          <div class="left">
+              <p>星享卡</p>
+              <p></p>
+          </div>
+          <div class="right">
+              <p></p>
+              <p></p>
+              <div>
+                  <a  class='btn' href=""></a>
+                  <a class='btn' href=""></a>
+                  <a href=""></a>
+              </div>
+          </div>
+      </div>
       <div id="mosaic"></div>
       <div></div>
       <div></div>
