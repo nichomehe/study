@@ -127,14 +127,7 @@ ul{
 }
 /*ad结束*/
 
-/*card开始*/
-.img01,.img02{
-    width: 100%;
-    display: block;
-}
-.img02{
-    display: none;
-}
+/*rewards开始*/
 #home-rewards{
     /*height: 220px;*/
     background: #0f0f0f;
@@ -174,10 +167,17 @@ ul{
     font-size: 16px;
     color: #fff;
 }
-.rewards-btns{
+.rewards-btn{
     margin-top: 20px;
 }
-.rewards-btns .btns{
+.rewards-btn a{
+    color: #b89f7a;
+    font-weight: 900;
+}
+.rewards-btn a:hover{
+    font-weight: 500;
+}
+.rewards-btn .btn{
     width: 114px;
     height: 50px;
     border:1px solid #b89f7a;
@@ -188,58 +188,55 @@ ul{
     float: left;
     margin-right: 20px;
 }
-.rewards-btns .btns:hover{
+.rewards-btn .btn:hover{
     background: #b89f7a;
     color: #ffffff;
 }
-@media screen and (max-width: 991px) {
-    .img02{
-        display: block;
+
+
+    /*app开始*/
+
+
+
+    #app{
+        background:#efebe8 url(../image/app-web.png) 0 0 no-repeat;
+        background-size:contain;
+        padding-top:23% ;
+        position: relative;
+        /*height: 300px;*/
+
     }
-    .img01{
+
+    #app img{
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        left:41%;
+        top:50%;
+        -webkit-transform: translateY(-50%);
+    }
+    .app-text{
+        width:35%;
+        position: absolute;
+        left:41%;
+        top:50%;
+        /*-webkit-transform: translateY(-50%);*/
+        -webkit-transform:  translateY(-50%) translateX(147px);
+
+    }
+    .app-text p{
+        font-size: 18px;
+        line-height: 28px;
+        color: #3d3d3d;
+        margin-bottom: 10px;
+
+    }
+    .app-text a{
+        color: #b89f7a;
+        font-size: 16px;
+    }
+    .btns {
         display: none;
     }
-}
 
-@media screen and (max-width: 767px) {
-    .rewards-mark,.rewards-content{
-        width: 100%;
-    }
-    #home-rewards{
-        padding: 0 35px;
-    }
-    .rewards-mark{
-        padding: 55px 0 0 0;
-        text-align: center;
-        height: 85px;
-    }
-    #container{
-        width: 100%;
-    }
-    .rewards-content{
-        text-align: center;
-    }
-    .rewards-content h3{
-        margin-bottom: 10px;
-    }
-    .rewards-btns {
-        margin-top: 40px;
-    }
-    .rewards-btns .btns{
-        width: 80%;
-        float: none;
-        display: block;
-        margin:0 auto 10px;
-
-    }
-
-
-
-
-
-
-
-
-
-}
-/*card结束*/
+/*app结束*/
