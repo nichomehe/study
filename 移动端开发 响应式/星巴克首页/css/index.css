@@ -304,3 +304,58 @@ ul{
     color: #a98e67;
 }
 /*cell-box结束*/
+
+/*wsg开始*/
+#wsg{
+    width: 100%;
+    background-color: #106e4b;
+    overflow: hidden;
+}
+#wsg .wsg-container{
+    width: 768px;
+    height: 222px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#wsg .wsg-container>div{
+    width: 384px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    height: 222px;
+    
+}
+#wsg .wsg-container .block .left{
+    float: left;
+    width: 177px;
+    height: 127.5px;
+    background: url("../image/block1.png") center center no-repeat;
+    background-size: contain;
+    margin: 47px 25px;
+}
+#wsg .wsg-container .block .right{
+    float: right;
+    width: 106px;
+    height: 106.5px;
+    background: url("../image/wsg-qrcode.png") center center no-repeat;
+    background-size: contain;
+    margin: 58px 10px 58px 25px;
+}
+#wsg .wsg-container .block1 .left {
+    float: left;
+    width: 99px;
+    height: 162px;
+    background: url("../image/wsg-cup.png") center center no-repeat;
+    background-size: contain;
+    margin: 30px 25px;
+}
+#wsg .wsg-container .block1 .right{
+    float: right;
+    width: 184px;
+    height: 142px;
+    background: url("../image/wsg-wording.png") center center no-repeat;
+    background-size: contain;
+    margin: 40px 25px;
+}
+/*wsg结束*/
