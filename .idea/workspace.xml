@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ecf6f6c-7cd4-46f4-b0b4-701b8535b584" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/4_扩展运算符.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/4_扩展运算符.html" afterPath="$PROJECT_DIR$/es6/4_扩展运算符.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,8 +68,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4_扩展运算符.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="4_扩展运算符.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/es6/4_扩展运算符.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5_字符串扩展.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/es6/5_字符串扩展.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -172,6 +182,7 @@
         <option value="$PROJECT_DIR$/移动端开发 响应式/Jquery Mobile/test-1.html" />
         <option value="$PROJECT_DIR$/移动端开发 响应式/星巴克首页/css/index.css" />
         <option value="$PROJECT_DIR$/移动端开发 响应式/星巴克首页/index.html" />
+        <option value="$PROJECT_DIR$/es6/4_扩展运算符.html" />
       </list>
     </option>
   </component>
@@ -372,14 +383,7 @@
       <workItem from="1516006434577" duration="1937000" />
       <workItem from="1516067478347" duration="52697000" />
       <workItem from="1516330058640" duration="32865000" />
-      <workItem from="1516600335867" duration="3157000" />
-    </task>
-    <task id="LOCAL-00004" summary="轮播图左边">
-      <created>1508559732743</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1508559732743</updated>
+      <workItem from="1516600335867" duration="4284000" />
     </task>
     <task id="LOCAL-00005" summary="频道列表">
       <created>1508644110499</created>
@@ -717,11 +721,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516603381247</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="es6-----4_扩展运算符">
+      <created>1516608945347</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1516608945347</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319001000" />
+    <option name="totallyTimeSpent" value="320128000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -780,7 +791,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Jqeury练习" />
     <MESSAGE value="网上商城" />
     <MESSAGE value="轮播图   5、6、7、8" />
     <MESSAGE value="css3" />
@@ -805,20 +815,14 @@
     <MESSAGE value="es6" />
     <MESSAGE value="es6-----1_test" />
     <MESSAGE value="es6-----2_const.html    3_解构.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="es6-----2_const.html    3_解构.html" />
+    <MESSAGE value="es6-----4_扩展运算符" />
+    <option name="LAST_COMMIT_MESSAGE" value="es6-----4_扩展运算符" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/小米商城/css/index1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DOM/12_轮播图/12.1轮播图.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2337">
@@ -1133,6 +1137,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/es6/4_扩展运算符.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/5_字符串扩展.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

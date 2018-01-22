@@ -26,7 +26,7 @@
         // console.log([...arr1,...arr2]);
         //数组复制
         /* let arr1 = [1, 2, 3];
-        // let arr3 = arr1;
+        // let arr3 = arr1;  这种方法修改arr1之后arr3会一起变，因为两个数组指向相同地址
         let arr3 = [...arr1];
 
         arr1[0] = 5;
@@ -34,7 +34,7 @@
 
         //类数组转化成数组
         let aLi = document.querySelectorAll('li');
-        // aLi.push(1);
+        // aLi.push(1);  类数组不能使用数组的相关方法  push和pop都是操作数组的方法
         /* let arr = [1, 2, 3];
         arr.push(4);
         console.log(aLi);
