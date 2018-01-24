@@ -398,14 +398,7 @@
       <workItem from="1516006434577" duration="1937000" />
       <workItem from="1516067478347" duration="52697000" />
       <workItem from="1516330058640" duration="32865000" />
-      <workItem from="1516600335867" duration="7818000" />
-    </task>
-    <task id="LOCAL-00012" summary="DOM">
-      <created>1510454964506</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1510454964506</updated>
+      <workItem from="1516600335867" duration="7835000" />
     </task>
     <task id="LOCAL-00013" summary="轮播图练习">
       <created>1510471798864</created>
@@ -743,11 +736,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516774979801</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="es6-----20">
+      <created>1516775007095</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1516775007095</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="323662000" />
+    <option name="totallyTimeSpent" value="323679000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -806,7 +806,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="整站开发---- works部分" />
     <MESSAGE value="整站开发---- works clients部分" />
     <MESSAGE value="整站开发---- footer部分" />
     <MESSAGE value="HTML5" />
@@ -831,7 +830,8 @@
     <MESSAGE value="es6-----14,15" />
     <MESSAGE value="es6-----16 17 18   promise" />
     <MESSAGE value="es6-----19" />
-    <option name="LAST_COMMIT_MESSAGE" value="es6-----19" />
+    <MESSAGE value="es6-----20" />
+    <option name="LAST_COMMIT_MESSAGE" value="es6-----20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
