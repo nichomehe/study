@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ecf6f6c-7cd4-46f4-b0b4-701b8535b584" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/19_promise_setimeout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/20_类 继承.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/21_class.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -401,14 +398,7 @@
       <workItem from="1516006434577" duration="1937000" />
       <workItem from="1516067478347" duration="52697000" />
       <workItem from="1516330058640" duration="32865000" />
-      <workItem from="1516600335867" duration="7775000" />
-    </task>
-    <task id="LOCAL-00011" summary="JS滚动">
-      <created>1509785780340</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1509785780340</updated>
+      <workItem from="1516600335867" duration="7818000" />
     </task>
     <task id="LOCAL-00012" summary="DOM">
       <created>1510454964506</created>
@@ -746,11 +736,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516761807503</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="es6-----19">
+      <created>1516774979800</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1516774979801</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="323619000" />
+    <option name="totallyTimeSpent" value="323662000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -809,7 +806,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="整站开发---- choose部分" />
     <MESSAGE value="整站开发---- works部分" />
     <MESSAGE value="整站开发---- works clients部分" />
     <MESSAGE value="整站开发---- footer部分" />
@@ -834,7 +830,8 @@
     <MESSAGE value="es6-----13" />
     <MESSAGE value="es6-----14,15" />
     <MESSAGE value="es6-----16 17 18   promise" />
-    <option name="LAST_COMMIT_MESSAGE" value="es6-----16 17 18   promise" />
+    <MESSAGE value="es6-----19" />
+    <option name="LAST_COMMIT_MESSAGE" value="es6-----19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
