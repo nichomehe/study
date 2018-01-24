@@ -401,14 +401,7 @@
       <workItem from="1516006434577" duration="1937000" />
       <workItem from="1516067478347" duration="52697000" />
       <workItem from="1516330058640" duration="32865000" />
-      <workItem from="1516600335867" duration="9062000" />
-    </task>
-    <task id="LOCAL-00020" summary="JS家电（选项卡）">
-      <created>1511669672678</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1511669672678</updated>
+      <workItem from="1516600335867" duration="9108000" />
     </task>
     <task id="LOCAL-00021" summary="Jqeury练习">
       <created>1512274172556</created>
@@ -746,11 +739,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516775622817</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="es6-----nodejs">
+      <created>1516784079458</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1516784079458</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324906000" />
+    <option name="totallyTimeSpent" value="324952000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -763,7 +763,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23648648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -809,7 +809,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="移动端开发----响应式练习" />
     <MESSAGE value="星巴克首页" />
     <MESSAGE value="Jquery Mobile" />
     <MESSAGE value="Jquery Mobile---------test-1" />
@@ -834,7 +833,8 @@
     <MESSAGE value="es6-----21" />
     <MESSAGE value="es6-----19 20 21" />
     <MESSAGE value="es6-----2_const" />
-    <option name="LAST_COMMIT_MESSAGE" value="es6-----2_const" />
+    <MESSAGE value="es6-----nodejs" />
+    <option name="LAST_COMMIT_MESSAGE" value="es6-----nodejs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
