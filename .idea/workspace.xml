@@ -399,14 +399,7 @@
       <workItem from="1516006434577" duration="1937000" />
       <workItem from="1516067478347" duration="52697000" />
       <workItem from="1516330058640" duration="32865000" />
-      <workItem from="1516600335867" duration="8417000" />
-    </task>
-    <task id="LOCAL-00018" summary="Jquery  lianxi1~4">
-      <created>1511599743772</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1511599743773</updated>
+      <workItem from="1516600335867" duration="8428000" />
     </task>
     <task id="LOCAL-00019" summary="Jquery  lianxi1~4">
       <created>1511600120447</created>
@@ -744,11 +737,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516775528860</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="es6-----2_const">
+      <created>1516775605708</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1516775605708</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324261000" />
+    <option name="totallyTimeSpent" value="324272000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
