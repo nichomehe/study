@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ecf6f6c-7cd4-46f4-b0b4-701b8535b584" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/2_arrow.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/aa.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,16 +21,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="6_复习.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6/6_复习.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="9_Array扩展.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/es6/9_Array扩展.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,6 +91,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="2_arrow.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass_css/2_arrow.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="2_arrow.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/2_arrow.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,8 +111,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2_arrow.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sass_css/2_arrow.css">
+      <file leaf-file-name="aa.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/aa.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -273,6 +273,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aa.scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -292,13 +310,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\xiaomi\web\sass_css" />
       <recent name="E:\xiaomi\web\sass" />
+      <recent name="E:\xiaomi\web\sass_css" />
       <recent name="E:\xiaomi\web前端" />
       <recent name="E:\xiaomi\web前端\es6" />
       <recent name="E:\xiaomi\web前端\移动端开发 响应式\星巴克首页\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xiaomi\web\sass_css" />
       <recent name="E:\xiaomi\web前端\移动端开发 响应式\响应式练习" />
     </key>
   </component>
@@ -405,14 +424,7 @@
       <workItem from="1516067478347" duration="52697000" />
       <workItem from="1516330058640" duration="32865000" />
       <workItem from="1516600335867" duration="10077000" />
-      <workItem from="1516860312645" duration="482000" />
-    </task>
-    <task id="LOCAL-00028" summary="整站开发----header">
-      <created>1515834327559</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1515834327559</updated>
+      <workItem from="1516860312645" duration="720000" />
     </task>
     <task id="LOCAL-00029" summary="整站开发----header  scroll choose">
       <created>1515940991130</created>
@@ -750,11 +762,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516860537923</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="sass------------2_arrow.html/css">
+      <created>1516860846529</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1516860846533</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326403000" />
+    <option name="totallyTimeSpent" value="326641000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -767,9 +786,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23586309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23586309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -813,7 +832,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Jquery Mobile---------test-1" />
     <MESSAGE value="星巴克-----header" />
     <MESSAGE value="星巴克-----rewards" />
     <MESSAGE value="星巴克-----app" />
@@ -838,20 +856,14 @@
     <MESSAGE value="es6-----nodejs" />
     <MESSAGE value="sass" />
     <MESSAGE value="sass_css" />
-    <option name="LAST_COMMIT_MESSAGE" value="sass_css" />
+    <MESSAGE value="sass------------2_arrow.html/css" />
+    <option name="LAST_COMMIT_MESSAGE" value="sass------------2_arrow.html/css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/移动端开发 响应式/响应式练习/css/css2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/移动端开发 响应式/响应式练习/css/css1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1166,6 +1178,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass_css/2_arrow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/2_arrow.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1174,7 +1194,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass_css/2_arrow.css">
+    <entry file="file://$PROJECT_DIR$/sass/aa.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
