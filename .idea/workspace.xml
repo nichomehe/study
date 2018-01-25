@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ecf6f6c-7cd4-46f4-b0b4-701b8535b584" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/sass.pptx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -391,14 +390,7 @@
       <workItem from="1516067478347" duration="52697000" />
       <workItem from="1516330058640" duration="32865000" />
       <workItem from="1516600335867" duration="10077000" />
-      <workItem from="1516860312645" duration="67000" />
-    </task>
-    <task id="LOCAL-00023" summary="网上商城">
-      <created>1513675396932</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1513675396932</updated>
+      <workItem from="1516860312645" duration="90000" />
     </task>
     <task id="LOCAL-00024" summary="轮播图   5、6、7、8">
       <created>1514017573186</created>
@@ -736,11 +728,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516843232616</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="sass">
+      <created>1516860405630</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1516860405640</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325988000" />
+    <option name="totallyTimeSpent" value="326011000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
