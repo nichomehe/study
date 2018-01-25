@@ -1,0 +1,110 @@
+@import 'common';
+$color:blue;
+$name : color;
+$fs:14px;
+.xx{
+    background: $color;
+    #{$name}: $color;
+    a{
+        font-size: $fs;
+        img{
+            width:200px;
+        }
+        span{
+            color:#f00;
+        }
+        &:hover{
+            color:red;
+        }
+    }
+}
+p{
+    color: $color;
+}
+.nav{
+    color: #f00;
+    &-item{
+        background: #000;
+    }
+}
+@mixin aa($color:#000){
+    border: 2px solid $color;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px 4px rgba(0,0,0,0.4);
+}
+
+.aa{
+    width:200px;
+    height: 300px;
+    @include aa();
+}
+.bb{
+    @include aa(rgb(224, 31, 192));
+}
+
+.cc{
+    color: #f00;
+    background: #000000;
+}
+.dd{
+    @extend .cc;
+    width: 300px;
+}
+
+%ee{
+    width: 200px;
+    height: 200px;
+}
+.ff{
+    @extend %ee;
+}
+$c : CENTER;
+$w:WIDTH;
+
+.hh{
+    @extend %ee;
+    margin:abs(-20px);
+    text-align: to-lower-case($c);
+    #{to-lower-case($w)}:300px;
+    border:1px solid $color;
+    background: lighten($color,20%);
+}
+/*这是注释*/
+
+//我也是注释
+
+#div1{
+    @include arrow(bottom,30px,pink);
+}
+@function add($x,$y){
+    @return $x+$y;
+}
+.qq{
+    width:add(5px,6px);
+}
+
+@for $i from 1 through 5{
+    .item-#{$i}{
+        width:20px*$i;
+        
+
+        height:(50px/5);
+    }
+}
+$z:4;
+@while ($z>0){
+    .nav-#{$z}{
+        width:20px*$z;
+    }
+    $z : $z - 1;
+}
+
+$icons : error warning truth;
+@each $item in $icons{
+    .item-#{$item}{
+        background: url("img/#{$item}.jpg");
+    }
+}
+
+
+
