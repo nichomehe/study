@@ -360,14 +360,7 @@
       <workItem from="1516067478347" duration="52697000" />
       <workItem from="1516330058640" duration="32865000" />
       <workItem from="1516600335867" duration="10077000" />
-      <workItem from="1516860312645" duration="2398000" />
-    </task>
-    <task id="LOCAL-00032" summary="整站开发---- choose部分">
-      <created>1516069320563</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1516069320563</updated>
+      <workItem from="1516860312645" duration="2916000" />
     </task>
     <task id="LOCAL-00033" summary="整站开发---- choose部分">
       <created>1516069353307</created>
@@ -705,11 +698,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516937383739</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="webpack">
+      <created>1516937421919</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1516937421919</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328319000" />
+    <option name="totallyTimeSpent" value="328837000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -768,7 +768,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="星巴克-----cell-box" />
     <MESSAGE value="星巴克-----wsg" />
     <MESSAGE value="星巴克-----apple-watch部分的HTML结构" />
     <MESSAGE value="es6" />
@@ -793,7 +792,8 @@
     <MESSAGE value="sass------------aa.scss/css(混合宏，继承，占位符)" />
     <MESSAGE value="sass------------common.scss" />
     <MESSAGE value="webpack 安装" />
-    <option name="LAST_COMMIT_MESSAGE" value="webpack 安装" />
+    <MESSAGE value="webpack" />
+    <option name="LAST_COMMIT_MESSAGE" value="webpack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
