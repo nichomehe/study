@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ecf6f6c-7cd4-46f4-b0b4-701b8535b584" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/1_test.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/common.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass_css/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/webpack.pptx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/webpack安装.tx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -212,6 +211,7 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/es6/node_modules" />
+    <handled-path value="$PROJECT_DIR$/webpack/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -244,6 +244,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webpack" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,11 +308,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xiaomi\web\webpack" />
       <recent name="E:\xiaomi\web\sass_css" />
       <recent name="E:\xiaomi\web\sass" />
       <recent name="E:\xiaomi\web前端" />
       <recent name="E:\xiaomi\web前端\es6" />
-      <recent name="E:\xiaomi\web前端\移动端开发 响应式\星巴克首页\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\xiaomi\web\sass_css" />
@@ -408,14 +422,7 @@
       <workItem from="1516067478347" duration="52697000" />
       <workItem from="1516330058640" duration="32865000" />
       <workItem from="1516600335867" duration="10077000" />
-      <workItem from="1516860312645" duration="1528000" />
-    </task>
-    <task id="LOCAL-00030" summary="整站开发---- choose部分">
-      <created>1516067028126</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1516067028126</updated>
+      <workItem from="1516860312645" duration="2344000" />
     </task>
     <task id="LOCAL-00031" summary="整站开发---- choose部分">
       <created>1516069244487</created>
@@ -753,11 +760,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516861129036</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="sass------------common.scss">
+      <created>1516867236771</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1516867236772</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="327449000" />
+    <option name="totallyTimeSpent" value="328265000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -816,7 +830,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="星巴克-----rewards" />
     <MESSAGE value="星巴克-----app" />
     <MESSAGE value="星巴克-----cell-box" />
     <MESSAGE value="星巴克-----wsg" />
@@ -841,7 +854,8 @@
     <MESSAGE value="sass_css" />
     <MESSAGE value="sass------------2_arrow.html/css" />
     <MESSAGE value="sass------------aa.scss/css(混合宏，继承，占位符)" />
-    <option name="LAST_COMMIT_MESSAGE" value="sass------------aa.scss/css(混合宏，继承，占位符)" />
+    <MESSAGE value="sass------------common.scss" />
+    <option name="LAST_COMMIT_MESSAGE" value="sass------------common.scss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
