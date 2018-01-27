@@ -6,7 +6,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/package.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/postcss.config.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/webpack.config.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/webpack_config/entry_webpack.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/webpack.pptx" afterPath="$PROJECT_DIR$/webpack/webpack.pptx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -319,14 +318,7 @@
       <workItem from="1517033335946" duration="1124000" />
       <workItem from="1517037643446" duration="141000" />
       <workItem from="1517038026867" duration="443000" />
-      <workItem from="1517039841489" duration="798000" />
-    </task>
-    <task id="LOCAL-00042" summary="Jquery Mobile">
-      <created>1516256594565</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1516256594565</updated>
+      <workItem from="1517039841489" duration="909000" />
     </task>
     <task id="LOCAL-00043" summary="Jquery Mobile---------test-1">
       <created>1516262584669</created>
@@ -664,11 +656,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517056253312</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="webpack">
+      <created>1517056335734</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1517056335735</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334248000" />
+    <option name="totallyTimeSpent" value="334359000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
