@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ecf6f6c-7cd4-46f4-b0b4-701b8535b584" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass_css/2_arrow.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sass_css/common.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -352,14 +353,7 @@
       <workItem from="1516330058640" duration="32865000" />
       <workItem from="1516600335867" duration="10077000" />
       <workItem from="1516860312645" duration="5821000" />
-      <workItem from="1517033335946" duration="583000" />
-    </task>
-    <task id="LOCAL-00039" summary="HTML5">
-      <created>1516152343640</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1516152343641</updated>
+      <workItem from="1517033335946" duration="981000" />
     </task>
     <task id="LOCAL-00040" summary="移动端开发----响应式练习">
       <created>1516171304828</created>
@@ -697,11 +691,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516956924748</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="webpack">
+      <created>1517034144281</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1517034144283</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332325000" />
+    <option name="totallyTimeSpent" value="332723000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
