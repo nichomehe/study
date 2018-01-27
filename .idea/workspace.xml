@@ -10,7 +10,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/webpack_config/entry_webpack.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/webpack.pptx" afterPath="$PROJECT_DIR$/webpack/webpack.pptx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/webpack安装.tx" afterPath="$PROJECT_DIR$/webpack/webpack安装.tx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -320,14 +319,7 @@
       <workItem from="1517033335946" duration="1124000" />
       <workItem from="1517037643446" duration="141000" />
       <workItem from="1517038026867" duration="443000" />
-      <workItem from="1517039841489" duration="611000" />
-    </task>
-    <task id="LOCAL-00041" summary="星巴克首页">
-      <created>1516179774692</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1516179774692</updated>
+      <workItem from="1517039841489" duration="798000" />
     </task>
     <task id="LOCAL-00042" summary="Jquery Mobile">
       <created>1516256594565</created>
@@ -665,11 +657,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517034562722</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="webpack">
+      <created>1517056253311</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1517056253312</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334061000" />
+    <option name="totallyTimeSpent" value="334248000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
