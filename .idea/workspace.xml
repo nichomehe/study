@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ecf6f6c-7cd4-46f4-b0b4-701b8535b584" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/8_lianxi.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -383,14 +382,7 @@
       <workItem from="1517037643446" duration="141000" />
       <workItem from="1517038026867" duration="443000" />
       <workItem from="1517039841489" duration="1421000" />
-      <workItem from="1517189080182" duration="4741000" />
-    </task>
-    <task id="LOCAL-00060" summary="es6-----19">
-      <created>1516774979800</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1516774979801</updated>
+      <workItem from="1517189080182" duration="4771000" />
     </task>
     <task id="LOCAL-00061" summary="es6-----20">
       <created>1516775007095</created>
@@ -728,11 +720,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517204998301</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="vue">
+      <created>1517211002180</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1517211002180</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="339612000" />
+    <option name="totallyTimeSpent" value="339642000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
