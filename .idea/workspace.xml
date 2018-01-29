@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ecf6f6c-7cd4-46f4-b0b4-701b8535b584" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/2_defineProperty.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/7_lianxi.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -383,14 +383,7 @@
       <workItem from="1517037643446" duration="141000" />
       <workItem from="1517038026867" duration="443000" />
       <workItem from="1517039841489" duration="1421000" />
-      <workItem from="1517189080182" duration="3535000" />
-    </task>
-    <task id="LOCAL-00058" summary="es6-----14,15">
-      <created>1516695876512</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1516695876514</updated>
+      <workItem from="1517189080182" duration="4102000" />
     </task>
     <task id="LOCAL-00059" summary="es6-----16 17 18   promise">
       <created>1516761807502</created>
@@ -728,11 +721,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517200511885</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="vue">
+      <created>1517204431848</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1517204431848</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338406000" />
+    <option name="totallyTimeSpent" value="338973000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
