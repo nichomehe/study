@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .aa{
+            background: yellowgreen;
+        }
+        .bb{
+            color: blue;
+        }
+        .aa1{
+            background: red;
+        }
+        .bb1{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- <img src="../img/banner.jpg" alt=""> -->
+        <img v-bind:src="imgSrc" alt="">
+        <img :src="imgSrc" alt="">
+        <h1 :id='id'></h1>
+        <div :class='{aa:isAa,bb:isBb}'>nicole</div>
+        <div :class="[isAa1,isBb1]"> nicole1</div>
+    </div>
+    <script src="vue.js"></script>
+    <script>
+        var vm = new Vue({
+            el:'#app',
+            data:{
+                imgSrc:'../img/11.jpg',
+                id:'div1',
+                isAa:'true',
+                isBb:'true',
+                isAa1:'aa1',
+                isBb1:'bb1'
+
+
+            }
+        });
+    </script>
+</body>
+</html>
