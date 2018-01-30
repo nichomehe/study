@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ecf6f6c-7cd4-46f4-b0b4-701b8535b584" name="Default" comment="vue">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/9_search.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue/8_lianxi.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/VUE.docx" afterPath="$PROJECT_DIR$/vue/VUE.docx" />
+    <list default="true" id="4ecf6f6c-7cd4-46f4-b0b4-701b8535b584" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/11_search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/12_v_if.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/13_v_model.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/7_点击切换背景颜色.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/8_购物车.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue/7_lianxi.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -97,8 +100,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="9_search.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="9_search.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue/9_search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="11_search.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue/11_search.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -395,14 +408,7 @@
       <workItem from="1517037643446" duration="141000" />
       <workItem from="1517038026867" duration="443000" />
       <workItem from="1517039841489" duration="1421000" />
-      <workItem from="1517189080182" duration="5567000" />
-    </task>
-    <task id="LOCAL-00062" summary="es6-----21">
-      <created>1516775023134</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1516775023134</updated>
+      <workItem from="1517189080182" duration="6845000" />
     </task>
     <task id="LOCAL-00063" summary="es6-----21">
       <created>1516775038767</created>
@@ -740,11 +746,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517211018424</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="vue">
+      <created>1517272715133</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1517272715133</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340438000" />
+    <option name="totallyTimeSpent" value="341716000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -835,13 +848,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html5/8_随机彩票.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/整站开发/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1147,6 +1153,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/9_search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/11_search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
