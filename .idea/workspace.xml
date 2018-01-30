@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ecf6f6c-7cd4-46f4-b0b4-701b8535b584" name="Default" comment="">
+    <list default="true" id="4ecf6f6c-7cd4-46f4-b0b4-701b8535b584" name="Default" comment="vue">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/9_search.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue/8_lianxi.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/VUE.docx" afterPath="$PROJECT_DIR$/vue/VUE.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -84,10 +87,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2_defineProperty.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2_defineProperty.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue/2_defineProperty.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-57">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="9_search.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue/9_search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -382,14 +395,7 @@
       <workItem from="1517037643446" duration="141000" />
       <workItem from="1517038026867" duration="443000" />
       <workItem from="1517039841489" duration="1421000" />
-      <workItem from="1517189080182" duration="4771000" />
-    </task>
-    <task id="LOCAL-00061" summary="es6-----20">
-      <created>1516775007095</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1516775007095</updated>
+      <workItem from="1517189080182" duration="5567000" />
     </task>
     <task id="LOCAL-00062" summary="es6-----21">
       <created>1516775023134</created>
@@ -727,11 +733,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517211002180</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="vue">
+      <created>1517211018424</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1517211018424</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="339642000" />
+    <option name="totallyTimeSpent" value="340438000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -822,13 +835,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html5/6_克隆.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="50" lean-forward="false" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html5/8_随机彩票.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1135,6 +1141,14 @@
     <entry file="file://$PROJECT_DIR$/vue/2_defineProperty.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-57">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/9_search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
