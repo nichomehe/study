@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>计算属性computed</title>
+</head>
+<body>
+            <div id="app">
+                {{fullName}}
+            </div>
+            <script src="vue.js"></script>
+            <script>
+                var vm = new Vue({
+                    el:'#app',
+                    data:{
+                       firstName:'zhang',
+                       lastName:'san' 
+                    },
+                    computed:{
+                        fullName:{
+                            get(){
+                              return this.firstName + " " +this.lastName;
+                            },
+                            set(val){
+                              var arr = val.split(' ');
+                              this.firstName=arr[0];
+                              this.lastName=arr[1];
+                            }
+                        
+                         }
+                    },
+                    // watch:{
+                    //     firstName:function(){
+                    //         console.log('firstName改变！'); //当firstName改变时要进行什么操作
+                    //     }
+                    // }
+                });
+            </script>
+    
+</body>
+</html>
